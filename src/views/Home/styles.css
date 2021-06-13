@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+
+table,
+th,
+td {
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+  font-size: 1.8ch;
+  width: 60vw;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
+a {
+  text-decoration: none;
+  color: #4786f9;
+}
