@@ -38,7 +38,7 @@ export default {
     };
   },
   async mounted() {
-    let reqRoot = await axios.get(this.BACKEND_URL + "/");
+    let reqRoot = await axios.get(this.BACKEND_URL);
 
     let preUsersPings = [];
 
